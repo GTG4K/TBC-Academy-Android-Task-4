@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="swamp">#22343C</color>
+    <color name="neon">#40DF9F</color>
+    <color name="dark_neon">#286053</color>
+    <color name="dirt">#625B39</color>
+    <color name="bee">#FFC542</color>
+    <color name="stone">#96A7AF</color>
+</resources>
