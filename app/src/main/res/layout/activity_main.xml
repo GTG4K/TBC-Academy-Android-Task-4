@@ -15,12 +15,11 @@
         android:padding="20dp">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
+            android:layout_width="45dp"
             android:layout_height="48dp"
             android:layout_marginBottom="15dp"
             android:backgroundTint="#331CB28F"
             app:cardCornerRadius="10dp"
-            android:outlineAmbientShadowColor="@color/neon"
             app:cardElevation="8dp">
 
             <View
@@ -76,9 +75,11 @@
             <EditText
                 android:id="@+id/etFullName"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:hint="@string/your_full_name"
                 android:padding="10dp"
+                android:inputType="text"
+                android:autofillHints="name"
                 android:textColorHint="@color/stone" />
         </LinearLayout>
 
@@ -110,9 +111,11 @@
             <EditText
                 android:id="@+id/etUsername"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:hint="@string/username"
                 android:padding="10dp"
+                android:inputType="text"
+                android:autofillHints="username"
                 android:singleLine="false"
                 android:textColorHint="@color/stone" />
         </LinearLayout>

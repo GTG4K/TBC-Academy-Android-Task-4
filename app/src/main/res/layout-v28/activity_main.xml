@@ -14,22 +14,28 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <View
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/rounded_green_square" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:backgroundTint="#3340DF9F"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp">
 
-        <androidx.cardview.widget.CardView>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:text="@string/hello"
-                android:textColor="@color/white"
-                android:textSize="40sp"
-                android:textStyle="bold" />
+            <View
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/rounded_green_square" />
         </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/hello"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
 
         <TextView
