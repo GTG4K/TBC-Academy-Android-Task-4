@@ -18,13 +18,13 @@
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:backgroundTint="#3340DF9F"
+            android:layout_marginBottom="20dp"
             app:cardCornerRadius="10dp"
             app:cardElevation="8dp">
 
             <View
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:layout_marginBottom="15dp"
                 android:background="@drawable/rounded_green_square" />
         </androidx.cardview.widget.CardView>
 
